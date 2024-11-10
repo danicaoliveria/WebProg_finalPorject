@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danica Oliveria Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  </head>
+  
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Danica</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Danica A. Oliveria</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-profile">
+        <img src="images/me1.jpg" alt="Danica" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Danica A. Oliveria</h1>
+        <p class="section__text__p2">Life can be really challenging, and every action we take <br>toward greater peace, happiness, and fulfillment deserves acknowledgement.</p>
+        <div class="social_icons">
+          <div class="icon"><a href="https://www.instagram.com/dan_lvr" target="_blank"><i class="uil uil-instagram"></i></a></div>
+          <div class="icon"><a href="https://www.facebook.com/danicaoliveria" target="_blank"><i class="uil uil-facebook"></i></a></div>
+          <div class="icon"><a href="https://www.twitter.com/dnc_lvr" target="_blank"><i class="uil uil-twitter"></i></a></div>
+          <div class="icon"><a href="https://github.com/danicaoliveria" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+       </div>  
+        
+        <div id="socials-container">
+          <div class="image-container">
+            <img src="images/me5.jpg" alt="Image1" class="small-image" onclick="enlargeImage(this)">
+            <img src="images/me4.jpg" alt="Image2" class="small-image" onclick="enlargeImage(this)">
+            <img src="images/me3.jpg" alt="Image3" class="small-image" onclick="enlargeImage(this)">
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="images/me6.webp"
+            alt="Profile picture"
+            class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Experience</h3>
+              <p>SSG President<br />Senior High School</p>
+              <p>SPG Vice-President<br />Elementary</p>
+              <p>Student Athlete</p>
+            </div>
+            <div class="details-container">
+              <h3>Education</h3>
+              <table>
+                <tr>
+                  <th>Level of Education</th>
+                  <th>Institution</th>
+                </tr>
+                <tr>
+                  <td>Bachelor's Degree</td>
+                  <td>BS Information Technology, Marinduque State University</td>
+                </tr>
+                <tr>
+                  <td>High School</td>
+                  <td>Botilao National High School</td>
+                </tr>
+                <tr>
+                  <td>Elementary</td>
+                  <td>Botilao Elementary School</td>
+                </tr>
+              </table>
+              
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Greetings! I'm Danica A. Oliveria, a 21-year-old from Botilao, Sta. Cruz, Marinduque. Volleyball is my adrenaline rush, where I dive for spikes and celebrate teamwork. 
+              Music is my soul's melody; I sing with passion and harmony. Dance is my expression, from the elegance of waltzes to the energy of hip-hop. And movies and series? 
+              They're my escape, transporting me to new worlds and stirring my imagination. Life is a colorful canvas, and I paint it with my love for sports, music, dance, and storytelling. 
+              Join me on this journey where every moment is infused with excitement and creativity.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section></section>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
